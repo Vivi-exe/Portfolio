@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title> Portfolio </title>
+</head>
+<body>
+
+    <div> 
+        <p>
+        <img src="foto.png" alt="foto de perfil">
+        <h1> Vitoria Maceo </h1>
+        </p>
+    </div>
+     <hr>
+
+    <p class="curso"> Cursando: Sistemas pra Internet </p>
+
+    <p class="semestre">Semestre: 2 Semestre </p>
+
+    <p class="ano">Anos cursados: Primeiro ano </p>
+
+    <p class="periodo">Horario:  Manha </p>
+
+
+    <p id="historico"> Sou estudante de TI, tenho 18 anos e procuro me aprofundar na area para melhorar minhas habilidades e conhecimentos</p>
+    <p id="formacao_academica"> Formada na escola tecnica ETEC Adail Nunes da Silva - Taquaritinga, ensino medio completo</p>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+           <div class="vw-plugin-top-wrapper"></div> 
+        </div>
+    </div>
+    
+</body>
+
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+    new window.VLibras.Widget({
+        rootPah: '/app',
+        personalization: 'https://vlibras.gov.br/config/defalt_logo.json',
+        opacity: 0.5,
+        position: 'R',
+        avatar: 'random',
+
+    });
+</script>
+
+
+</html>
